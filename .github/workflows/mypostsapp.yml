@@ -6,6 +6,8 @@ on:
       - main
     paths:
       - "client/**"
+      - "posts/**"
+      - "comments/**"
 
 defaults:
   run:
