@@ -8,7 +8,7 @@ function App() {
       <h1>Create a Post</h1>
       <PostCreate />
       <hr />
-      <h1 >All Posts So Far with Multiple Directories-1</h1>
+      <h1 >All Posts So Far with Multiple Directories-2</h1>
       <PostList />
     </div>
   );
