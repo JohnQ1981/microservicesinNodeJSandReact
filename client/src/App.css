@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+
+/* CSS */
+.progressBar {
+  width: 0;
+  height: 5px;
+  background-color: #007bff;
+  position: relative;
+}
+
+.progressBar.animate {
+  animation: load 3s linear forwards;
+}
+
+@keyframes load {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
